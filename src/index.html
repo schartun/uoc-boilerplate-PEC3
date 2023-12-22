@@ -10,13 +10,13 @@
         />
         <title>Main</title>
     </head>
-    <body class="min-w-[350px]">
+    <!-- <body class="min-w-[350px]">
         <div
             class="h-screen bg-[right_35%_bottom_45] bg-[url('../images/Father-son-playing-large.jpg')] bg-cover md:bg-center"
         >
             <include src="./views/header.html"></include>
-            <main class="grid h-screen grid-cols-2 grid-rows-2">
-                <h1 class="text-mustard-300 row-span-2 text-5xl font-bold">
+            <main class="">
+                <h1 class="text-5xl font-bold text-mustard-300">
                     Raquetas Amigas
                 </h1>
                 <p class="">
@@ -24,6 +24,18 @@
                 </p>
             </main>
         </div>
+        <include src="./views/footer.html"></include>
+        <script type="module" src="./assets/scripts/main.js"></script>
+    </body> -->
+    <body
+        class="grid h-screen min-w-[350px] grid-cols-3 grid-rows-[0.1fr_2.1fr_0.8fr] bg-[url('../images/Father-son-playing-large.jpg')] bg-cover bg-no-repeat md:bg-center"
+    >
+        <include src="./views/header.html"></include>
+        <main class="col-[1/4] row-[2/3]">
+            <h1 class="text-5xl font-bold text-mustard-300">Raquetas Amigas</h1>
+            <p class="">Más que tenis, una red de amistad en cada partido</p>
+        </main>
+
         <include src="./views/footer.html"></include>
         <script type="module" src="./assets/scripts/main.js"></script>
     </body>
