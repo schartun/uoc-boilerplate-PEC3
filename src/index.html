@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./assets/styles/main.scss"
+        />
+        <title>Main</title>
+    </head>
+    <body class="min-w-[350px]">
+        <div
+            class="h-screen bg-[right_35%_bottom_45] bg-[url('../images/Father-son-playing-large.jpg')] bg-cover md:bg-center"
+        >
+            <include src="./views/header.html"></include>
+            <main class="grid h-screen grid-cols-2 grid-rows-2">
+                <h1 class="text-mustard-300 row-span-2 text-5xl font-bold">
+                    Raquetas Amigas
+                </h1>
+                <p class="">
+                    Más que tenis, una red de amistad en cada partido
+                </p>
+            </main>
+        </div>
+        <include src="./views/footer.html"></include>
+        <script type="module" src="./assets/scripts/main.js"></script>
+    </body>
+</html>
