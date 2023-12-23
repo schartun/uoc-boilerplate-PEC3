@@ -31,11 +31,33 @@
         class="grid h-screen min-w-[350px] grid-cols-3 grid-rows-[0.1fr_2.1fr_0.8fr] bg-[url('../images/Father-son-playing-large.jpg')] bg-cover bg-no-repeat md:bg-center"
     >
         <include src="./views/header.html"></include>
-        <main class="col-[1/4] row-[2/3]">
-            <h1 class="text-5xl font-bold text-mustard-300">Raquetas Amigas</h1>
-            <p class="">Más que tenis, una red de amistad en cada partido</p>
+        <main class="col-[1/4] row-[2/3] grid h-[90vh] grid-cols-5 grid-rows-6">
+            <div
+                class="col-[1/5] row-[2/4] mb-4 ml-3 mt-4 max-w-[100%] rounded-lg bg-shakespeare-700 p-4 shadow-lg"
+            >
+                <h1
+                    class="mb-4 text-4xl font-bold text-mustard-300 sm:text-5xl md:text-6xl lg:text-7xl"
+                >
+                    Raquetas Amigas
+                </h1>
+                <p
+                    class="mb-4 text-lg text-white sm:text-xl md:text-2xl lg:text-3xl"
+                >
+                    Más que tenis, una red de amistad en cada partido
+                </p>
+            </div>
+            <div
+                class="col-[2/5] row-[5/6] mx-auto max-w-[100%] rounded-lg bg-shakespeare-500 p-4 text-white shadow-lg"
+            >
+                <div class="flex items-center justify-center">
+                    <i class="fa fa-trophy fa-3x text-anzac-500 mr-4"></i>
+                    <div>
+                        <h2 class="mb-2 text-2xl font-bold">Gran Torneo</h2>
+                        <p class="text-sm">21 de marzo</p>
+                    </div>
+                </div>
+            </div>
         </main>
-
         <include src="./views/footer.html"></include>
         <script type="module" src="./assets/scripts/main.js"></script>
     </body>
