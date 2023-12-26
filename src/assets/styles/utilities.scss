@@ -1,0 +1,13 @@
+/**
+ * Extracting classes with @apply
+ */
+
+@layer components {
+  .bodyStyle {
+    @apply grid min-w-[350px] grid-cols-3 grid-rows-[0.1fr_2.1fr_0.5fr] bg-[url('../images/Father-son-playing-large.jpg')] bg-cover bg-[center_right_20%] bg-no-repeat md:bg-center;
+  }
+
+  .mainBanner {
+    @apply col-[1/6] row-[2/4] mx-auto mb-4 mt-4 flex max-w-[80%] flex-col place-content-center rounded-lg bg-shakespeare-700 p-4 shadow-lg md:col-[2/5] md:mx-0 md:max-w-[100%];
+  }
+}
