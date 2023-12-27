@@ -3,7 +3,12 @@ module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
     extend: {
-      "colors": {
+      fontFamily: {
+        Title:['QuattrocentoSansRegular'],
+        Paragraph: ['QuattrocentoRegular'],
+      },
+
+      colors: {
         'mustard': {
           '50': 'hsl(52, 92%, 95%)',
           '100': 'hsl(53, 100%, 88%)',

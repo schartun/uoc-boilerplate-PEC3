@@ -1,4 +1,10 @@
 /**
+ * Import fonts
+ */
+
+@import "./elements/typography";
+
+/**
  * Import Tailwind directives
  */
 
@@ -10,7 +16,7 @@
  * Import Extracted classes
  */
 
-@import "./utilities.scss";
+@import "./utilities/utilities";
 
 /**
  * Import npm dependencies
